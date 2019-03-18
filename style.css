@@ -1,0 +1,46 @@
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+a:link,a:visited{
+    text-decoration: none;
+}
+h4{
+    margin-bottom: 2px;
+}
+ol,ul{
+    margin-block-start:5px;
+}
+main{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    height: 1000px;
+    overflow: auto;
+}
+#navbar{
+    overflow: hidden;
+}
+@media (min-width:1025px){
+    #navbar{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        position: absolute;
+        overflow: hidden;
+    } 
+    main{
+        margin-left: 300px;
+    }
+}
+
+/* .vertical-line{
+    border-left: 1px solid black;
+    height: 100rem;
+    float: left;
+    margin: 0 200px 0 205px;
+} */
